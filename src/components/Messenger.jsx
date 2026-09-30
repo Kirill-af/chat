@@ -4,7 +4,7 @@ import { formatPhone, isSupportedPhone, normalizePhone } from "../phone.js";
 import { appendOutgoing, createChat, patchMessage } from "../messages.js";
 import { Logo } from "./Logo.jsx";
 
-const AVATAR_COLORS = ["#0077FF", "#12B76A", "#7A5AF8", "#F79009", "#F04438", "#0BA5EC"];
+const AVATAR_COLORS = ["#0B63D6", "#067647", "#5925DC", "#B54708", "#B42318", "#026AA2"];
 
 function colorFor(id) {
   let hash = 0;
